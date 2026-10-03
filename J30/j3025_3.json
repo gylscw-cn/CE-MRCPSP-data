@@ -1,0 +1,2240 @@
+{
+  "activities": [
+    {
+      "activity_id": 0,
+      "modes": [
+        {
+          "duration": 0,
+          "mode_id": 1,
+          "nonrenewable_demands": [
+            0,
+            0
+          ],
+          "renewable_demands": [
+            0,
+            0
+          ]
+        }
+      ],
+      "predecessors": [],
+      "source_job_id": 1,
+      "successors": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "activity_id": 1,
+      "modes": [
+        {
+          "duration": 2,
+          "mode_id": 1,
+          "nonrenewable_demands": [
+            6,
+            0
+          ],
+          "renewable_demands": [
+            0,
+            7
+          ]
+        },
+        {
+          "duration": 2,
+          "mode_id": 2,
+          "nonrenewable_demands": [
+            0,
+            6
+          ],
+          "renewable_demands": [
+            2,
+            0
+          ]
+        },
+        {
+          "duration": 4,
+          "mode_id": 3,
+          "nonrenewable_demands": [
+            0,
+            3
+          ],
+          "renewable_demands": [
+            0,
+            7
+          ]
+        }
+      ],
+      "predecessors": [
+        0
+      ],
+      "source_job_id": 2,
+      "successors": [
+        8,
+        12,
+        13
+      ]
+    },
+    {
+      "activity_id": 2,
+      "modes": [
+        {
+          "duration": 1,
+          "mode_id": 1,
+          "nonrenewable_demands": [
+            0,
+            9
+          ],
+          "renewable_demands": [
+            9,
+            0
+          ]
+        },
+        {
+          "duration": 2,
+          "mode_id": 2,
+          "nonrenewable_demands": [
+            9,
+            0
+          ],
+          "renewable_demands": [
+            0,
+            4
+          ]
+        },
+        {
+          "duration": 9,
+          "mode_id": 3,
+          "nonrenewable_demands": [
+            0,
+            9
+          ],
+          "renewable_demands": [
+            8,
+            0
+          ]
+        }
+      ],
+      "predecessors": [
+        0
+      ],
+      "source_job_id": 3,
+      "successors": [
+        5,
+        7,
+        9
+      ]
+    },
+    {
+      "activity_id": 3,
+      "modes": [
+        {
+          "duration": 3,
+          "mode_id": 1,
+          "nonrenewable_demands": [
+            0,
+            7
+          ],
+          "renewable_demands": [
+            2,
+            0
+          ]
+        },
+        {
+          "duration": 3,
+          "mode_id": 2,
+          "nonrenewable_demands": [
+            0,
+            7
+          ],
+          "renewable_demands": [
+            0,
+            2
+          ]
+        },
+        {
+          "duration": 8,
+          "mode_id": 3,
+          "nonrenewable_demands": [
+            0,
+            5
+          ],
+          "renewable_demands": [
+            0,
+            1
+          ]
+        }
+      ],
+      "predecessors": [
+        0
+      ],
+      "source_job_id": 4,
+      "successors": [
+        4,
+        16
+      ]
+    },
+    {
+      "activity_id": 4,
+      "modes": [
+        {
+          "duration": 3,
+          "mode_id": 1,
+          "nonrenewable_demands": [
+            6,
+            0
+          ],
+          "renewable_demands": [
+            9,
+            0
+          ]
+        },
+        {
+          "duration": 6,
+          "mode_id": 2,
+          "nonrenewable_demands": [
+            5,
+            0
+          ],
+          "renewable_demands": [
+            9,
+            0
+          ]
+        },
+        {
+          "duration": 7,
+          "mode_id": 3,
+          "nonrenewable_demands": [
+            0,
+            3
+          ],
+          "renewable_demands": [
+            9,
+            0
+          ]
+        }
+      ],
+      "predecessors": [
+        3
+      ],
+      "source_job_id": 5,
+      "successors": [
+        13,
+        17
+      ]
+    },
+    {
+      "activity_id": 5,
+      "modes": [
+        {
+          "duration": 4,
+          "mode_id": 1,
+          "nonrenewable_demands": [
+            7,
+            0
+          ],
+          "renewable_demands": [
+            3,
+            0
+          ]
+        },
+        {
+          "duration": 5,
+          "mode_id": 2,
+          "nonrenewable_demands": [
+            0,
+            4
+          ],
+          "renewable_demands": [
+            0,
+            6
+          ]
+        },
+        {
+          "duration": 8,
+          "mode_id": 3,
+          "nonrenewable_demands": [
+            7,
+            0
+          ],
+          "renewable_demands": [
+            1,
+            0
+          ]
+        }
+      ],
+      "predecessors": [
+        2
+      ],
+      "source_job_id": 6,
+      "successors": [
+        6,
+        11,
+        24
+      ]
+    },
+    {
+      "activity_id": 6,
+      "modes": [
+        {
+          "duration": 1,
+          "mode_id": 1,
+          "nonrenewable_demands": [
+            8,
+            0
+          ],
+          "renewable_demands": [
+            4,
+            0
+          ]
+        },
+        {
+          "duration": 6,
+          "mode_id": 2,
+          "nonrenewable_demands": [
+            7,
+            0
+          ],
+          "renewable_demands": [
+            3,
+            0
+          ]
+        },
+        {
+          "duration": 10,
+          "mode_id": 3,
+          "nonrenewable_demands": [
+            6,
+            0
+          ],
+          "renewable_demands": [
+            3,
+            0
+          ]
+        }
+      ],
+      "predecessors": [
+        5
+      ],
+      "source_job_id": 7,
+      "successors": [
+        18,
+        21,
+        22
+      ]
+    },
+    {
+      "activity_id": 7,
+      "modes": [
+        {
+          "duration": 4,
+          "mode_id": 1,
+          "nonrenewable_demands": [
+            7,
+            0
+          ],
+          "renewable_demands": [
+            0,
+            6
+          ]
+        },
+        {
+          "duration": 7,
+          "mode_id": 2,
+          "nonrenewable_demands": [
+            5,
+            0
+          ],
+          "renewable_demands": [
+            0,
+            3
+          ]
+        },
+        {
+          "duration": 9,
+          "mode_id": 3,
+          "nonrenewable_demands": [
+            0,
+            3
+          ],
+          "renewable_demands": [
+            0,
+            2
+          ]
+        }
+      ],
+      "predecessors": [
+        2
+      ],
+      "source_job_id": 8,
+      "successors": [
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "activity_id": 8,
+      "modes": [
+        {
+          "duration": 1,
+          "mode_id": 1,
+          "nonrenewable_demands": [
+            0,
+            3
+          ],
+          "renewable_demands": [
+            9,
+            0
+          ]
+        },
+        {
+          "duration": 2,
+          "mode_id": 2,
+          "nonrenewable_demands": [
+            5,
+            0
+          ],
+          "renewable_demands": [
+            0,
+            8
+          ]
+        },
+        {
+          "duration": 5,
+          "mode_id": 3,
+          "nonrenewable_demands": [
+            4,
+            0
+          ],
+          "renewable_demands": [
+            0,
+            8
+          ]
+        }
+      ],
+      "predecessors": [
+        1,
+        7
+      ],
+      "source_job_id": 9,
+      "successors": [
+        19,
+        27
+      ]
+    },
+    {
+      "activity_id": 9,
+      "modes": [
+        {
+          "duration": 2,
+          "mode_id": 1,
+          "nonrenewable_demands": [
+            0,
+            2
+          ],
+          "renewable_demands": [
+            10,
+            0
+          ]
+        },
+        {
+          "duration": 5,
+          "mode_id": 2,
+          "nonrenewable_demands": [
+            7,
+            0
+          ],
+          "renewable_demands": [
+            10,
+            0
+          ]
+        },
+        {
+          "duration": 10,
+          "mode_id": 3,
+          "nonrenewable_demands": [
+            5,
+            0
+          ],
+          "renewable_demands": [
+            0,
+            7
+          ]
+        }
+      ],
+      "predecessors": [
+        2
+      ],
+      "source_job_id": 10,
+      "successors": [
+        17,
+        24,
+        29
+      ]
+    },
+    {
+      "activity_id": 10,
+      "modes": [
+        {
+          "duration": 4,
+          "mode_id": 1,
+          "nonrenewable_demands": [
+            0,
+            6
+          ],
+          "renewable_demands": [
+            0,
+            3
+          ]
+        },
+        {
+          "duration": 8,
+          "mode_id": 2,
+          "nonrenewable_demands": [
+            4,
+            0
+          ],
+          "renewable_demands": [
+            7,
+            0
+          ]
+        },
+        {
+          "duration": 9,
+          "mode_id": 3,
+          "nonrenewable_demands": [
+            3,
+            0
+          ],
+          "renewable_demands": [
+            6,
+            0
+          ]
+        }
+      ],
+      "predecessors": [
+        7
+      ],
+      "source_job_id": 11,
+      "successors": [
+        20,
+        23,
+        26
+      ]
+    },
+    {
+      "activity_id": 11,
+      "modes": [
+        {
+          "duration": 1,
+          "mode_id": 1,
+          "nonrenewable_demands": [
+            0,
+            6
+          ],
+          "renewable_demands": [
+            6,
+            0
+          ]
+        },
+        {
+          "duration": 3,
+          "mode_id": 2,
+          "nonrenewable_demands": [
+            0,
+            5
+          ],
+          "renewable_demands": [
+            6,
+            0
+          ]
+        },
+        {
+          "duration": 5,
+          "mode_id": 3,
+          "nonrenewable_demands": [
+            0,
+            4
+          ],
+          "renewable_demands": [
+            6,
+            0
+          ]
+        }
+      ],
+      "predecessors": [
+        5
+      ],
+      "source_job_id": 12,
+      "successors": [
+        15,
+        18,
+        20
+      ]
+    },
+    {
+      "activity_id": 12,
+      "modes": [
+        {
+          "duration": 3,
+          "mode_id": 1,
+          "nonrenewable_demands": [
+            3,
+            0
+          ],
+          "renewable_demands": [
+            0,
+            8
+          ]
+        },
+        {
+          "duration": 6,
+          "mode_id": 2,
+          "nonrenewable_demands": [
+            0,
+            7
+          ],
+          "renewable_demands": [
+            6,
+            0
+          ]
+        },
+        {
+          "duration": 8,
+          "mode_id": 3,
+          "nonrenewable_demands": [
+            0,
+            4
+          ],
+          "renewable_demands": [
+            0,
+            4
+          ]
+        }
+      ],
+      "predecessors": [
+        1
+      ],
+      "source_job_id": 13,
+      "successors": [
+        27
+      ]
+    },
+    {
+      "activity_id": 13,
+      "modes": [
+        {
+          "duration": 2,
+          "mode_id": 1,
+          "nonrenewable_demands": [
+            0,
+            6
+          ],
+          "renewable_demands": [
+            9,
+            0
+          ]
+        },
+        {
+          "duration": 7,
+          "mode_id": 2,
+          "nonrenewable_demands": [
+            0,
+            5
+          ],
+          "renewable_demands": [
+            0,
+            2
+          ]
+        },
+        {
+          "duration": 7,
+          "mode_id": 3,
+          "nonrenewable_demands": [
+            2,
+            0
+          ],
+          "renewable_demands": [
+            0,
+            3
+          ]
+        }
+      ],
+      "predecessors": [
+        1,
+        4
+      ],
+      "source_job_id": 14,
+      "successors": [
+        22
+      ]
+    },
+    {
+      "activity_id": 14,
+      "modes": [
+        {
+          "duration": 6,
+          "mode_id": 1,
+          "nonrenewable_demands": [
+            0,
+            4
+          ],
+          "renewable_demands": [
+            8,
+            0
+          ]
+        },
+        {
+          "duration": 6,
+          "mode_id": 2,
+          "nonrenewable_demands": [
+            0,
+            2
+          ],
+          "renewable_demands": [
+            0,
+            6
+          ]
+        },
+        {
+          "duration": 9,
+          "mode_id": 3,
+          "nonrenewable_demands": [
+            10,
+            0
+          ],
+          "renewable_demands": [
+            10,
+            0
+          ]
+        }
+      ],
+      "predecessors": [
+        7
+      ],
+      "source_job_id": 15,
+      "successors": [
+        19,
+        25,
+        28
+      ]
+    },
+    {
+      "activity_id": 15,
+      "modes": [
+        {
+          "duration": 3,
+          "mode_id": 1,
+          "nonrenewable_demands": [
+            0,
+            6
+          ],
+          "renewable_demands": [
+            0,
+            7
+          ]
+        },
+        {
+          "duration": 6,
+          "mode_id": 2,
+          "nonrenewable_demands": [
+            0,
+            1
+          ],
+          "renewable_demands": [
+            0,
+            7
+          ]
+        },
+        {
+          "duration": 8,
+          "mode_id": 3,
+          "nonrenewable_demands": [
+            6,
+            0
+          ],
+          "renewable_demands": [
+            0,
+            5
+          ]
+        }
+      ],
+      "predecessors": [
+        11
+      ],
+      "source_job_id": 16,
+      "successors": [
+        21
+      ]
+    },
+    {
+      "activity_id": 16,
+      "modes": [
+        {
+          "duration": 1,
+          "mode_id": 1,
+          "nonrenewable_demands": [
+            7,
+            0
+          ],
+          "renewable_demands": [
+            0,
+            7
+          ]
+        },
+        {
+          "duration": 3,
+          "mode_id": 2,
+          "nonrenewable_demands": [
+            1,
+            0
+          ],
+          "renewable_demands": [
+            0,
+            6
+          ]
+        },
+        {
+          "duration": 10,
+          "mode_id": 3,
+          "nonrenewable_demands": [
+            0,
+            2
+          ],
+          "renewable_demands": [
+            7,
+            0
+          ]
+        }
+      ],
+      "predecessors": [
+        3
+      ],
+      "source_job_id": 17,
+      "successors": [
+        17,
+        20
+      ]
+    },
+    {
+      "activity_id": 17,
+      "modes": [
+        {
+          "duration": 1,
+          "mode_id": 1,
+          "nonrenewable_demands": [
+            0,
+            5
+          ],
+          "renewable_demands": [
+            5,
+            0
+          ]
+        },
+        {
+          "duration": 9,
+          "mode_id": 2,
+          "nonrenewable_demands": [
+            0,
+            4
+          ],
+          "renewable_demands": [
+            0,
+            4
+          ]
+        },
+        {
+          "duration": 10,
+          "mode_id": 3,
+          "nonrenewable_demands": [
+            6,
+            0
+          ],
+          "renewable_demands": [
+            3,
+            0
+          ]
+        }
+      ],
+      "predecessors": [
+        4,
+        9,
+        16
+      ],
+      "source_job_id": 18,
+      "successors": [
+        23
+      ]
+    },
+    {
+      "activity_id": 18,
+      "modes": [
+        {
+          "duration": 6,
+          "mode_id": 1,
+          "nonrenewable_demands": [
+            0,
+            3
+          ],
+          "renewable_demands": [
+            7,
+            0
+          ]
+        },
+        {
+          "duration": 8,
+          "mode_id": 2,
+          "nonrenewable_demands": [
+            10,
+            0
+          ],
+          "renewable_demands": [
+            0,
+            3
+          ]
+        },
+        {
+          "duration": 10,
+          "mode_id": 3,
+          "nonrenewable_demands": [
+            8,
+            0
+          ],
+          "renewable_demands": [
+            6,
+            0
+          ]
+        }
+      ],
+      "predecessors": [
+        6,
+        11
+      ],
+      "source_job_id": 19,
+      "successors": [
+        23,
+        29
+      ]
+    },
+    {
+      "activity_id": 19,
+      "modes": [
+        {
+          "duration": 3,
+          "mode_id": 1,
+          "nonrenewable_demands": [
+            4,
+            0
+          ],
+          "renewable_demands": [
+            6,
+            0
+          ]
+        },
+        {
+          "duration": 5,
+          "mode_id": 2,
+          "nonrenewable_demands": [
+            3,
+            0
+          ],
+          "renewable_demands": [
+            0,
+            9
+          ]
+        },
+        {
+          "duration": 7,
+          "mode_id": 3,
+          "nonrenewable_demands": [
+            3,
+            0
+          ],
+          "renewable_demands": [
+            6,
+            0
+          ]
+        }
+      ],
+      "predecessors": [
+        8,
+        14
+      ],
+      "source_job_id": 20,
+      "successors": [
+        26
+      ]
+    },
+    {
+      "activity_id": 20,
+      "modes": [
+        {
+          "duration": 3,
+          "mode_id": 1,
+          "nonrenewable_demands": [
+            0,
+            8
+          ],
+          "renewable_demands": [
+            0,
+            9
+          ]
+        },
+        {
+          "duration": 4,
+          "mode_id": 2,
+          "nonrenewable_demands": [
+            0,
+            7
+          ],
+          "renewable_demands": [
+            8,
+            0
+          ]
+        },
+        {
+          "duration": 10,
+          "mode_id": 3,
+          "nonrenewable_demands": [
+            0,
+            6
+          ],
+          "renewable_demands": [
+            6,
+            0
+          ]
+        }
+      ],
+      "predecessors": [
+        10,
+        11,
+        16
+      ],
+      "source_job_id": 21,
+      "successors": [
+        28
+      ]
+    },
+    {
+      "activity_id": 21,
+      "modes": [
+        {
+          "duration": 6,
+          "mode_id": 1,
+          "nonrenewable_demands": [
+            0,
+            10
+          ],
+          "renewable_demands": [
+            7,
+            0
+          ]
+        },
+        {
+          "duration": 7,
+          "mode_id": 2,
+          "nonrenewable_demands": [
+            0,
+            10
+          ],
+          "renewable_demands": [
+            0,
+            10
+          ]
+        },
+        {
+          "duration": 9,
+          "mode_id": 3,
+          "nonrenewable_demands": [
+            5,
+            0
+          ],
+          "renewable_demands": [
+            0,
+            10
+          ]
+        }
+      ],
+      "predecessors": [
+        6,
+        15
+      ],
+      "source_job_id": 22,
+      "successors": [
+        25,
+        27
+      ]
+    },
+    {
+      "activity_id": 22,
+      "modes": [
+        {
+          "duration": 8,
+          "mode_id": 1,
+          "nonrenewable_demands": [
+            7,
+            0
+          ],
+          "renewable_demands": [
+            10,
+            0
+          ]
+        },
+        {
+          "duration": 9,
+          "mode_id": 2,
+          "nonrenewable_demands": [
+            7,
+            0
+          ],
+          "renewable_demands": [
+            0,
+            9
+          ]
+        },
+        {
+          "duration": 10,
+          "mode_id": 3,
+          "nonrenewable_demands": [
+            0,
+            3
+          ],
+          "renewable_demands": [
+            0,
+            5
+          ]
+        }
+      ],
+      "predecessors": [
+        6,
+        13
+      ],
+      "source_job_id": 23,
+      "successors": [
+        25
+      ]
+    },
+    {
+      "activity_id": 23,
+      "modes": [
+        {
+          "duration": 7,
+          "mode_id": 1,
+          "nonrenewable_demands": [
+            0,
+            5
+          ],
+          "renewable_demands": [
+            6,
+            0
+          ]
+        },
+        {
+          "duration": 8,
+          "mode_id": 2,
+          "nonrenewable_demands": [
+            0,
+            3
+          ],
+          "renewable_demands": [
+            6,
+            0
+          ]
+        },
+        {
+          "duration": 8,
+          "mode_id": 3,
+          "nonrenewable_demands": [
+            0,
+            3
+          ],
+          "renewable_demands": [
+            0,
+            6
+          ]
+        }
+      ],
+      "predecessors": [
+        10,
+        17,
+        18
+      ],
+      "source_job_id": 24,
+      "successors": [
+        30
+      ]
+    },
+    {
+      "activity_id": 24,
+      "modes": [
+        {
+          "duration": 5,
+          "mode_id": 1,
+          "nonrenewable_demands": [
+            0,
+            2
+          ],
+          "renewable_demands": [
+            4,
+            0
+          ]
+        },
+        {
+          "duration": 6,
+          "mode_id": 2,
+          "nonrenewable_demands": [
+            0,
+            1
+          ],
+          "renewable_demands": [
+            0,
+            5
+          ]
+        },
+        {
+          "duration": 9,
+          "mode_id": 3,
+          "nonrenewable_demands": [
+            4,
+            0
+          ],
+          "renewable_demands": [
+            2,
+            0
+          ]
+        }
+      ],
+      "predecessors": [
+        5,
+        9
+      ],
+      "source_job_id": 25,
+      "successors": [
+        30
+      ]
+    },
+    {
+      "activity_id": 25,
+      "modes": [
+        {
+          "duration": 1,
+          "mode_id": 1,
+          "nonrenewable_demands": [
+            4,
+            0
+          ],
+          "renewable_demands": [
+            10,
+            0
+          ]
+        },
+        {
+          "duration": 4,
+          "mode_id": 2,
+          "nonrenewable_demands": [
+            3,
+            0
+          ],
+          "renewable_demands": [
+            9,
+            0
+          ]
+        },
+        {
+          "duration": 5,
+          "mode_id": 3,
+          "nonrenewable_demands": [
+            3,
+            0
+          ],
+          "renewable_demands": [
+            0,
+            6
+          ]
+        }
+      ],
+      "predecessors": [
+        14,
+        21,
+        22
+      ],
+      "source_job_id": 26,
+      "successors": [
+        26
+      ]
+    },
+    {
+      "activity_id": 26,
+      "modes": [
+        {
+          "duration": 2,
+          "mode_id": 1,
+          "nonrenewable_demands": [
+            0,
+            10
+          ],
+          "renewable_demands": [
+            5,
+            0
+          ]
+        },
+        {
+          "duration": 8,
+          "mode_id": 2,
+          "nonrenewable_demands": [
+            0,
+            9
+          ],
+          "renewable_demands": [
+            3,
+            0
+          ]
+        },
+        {
+          "duration": 9,
+          "mode_id": 3,
+          "nonrenewable_demands": [
+            0,
+            8
+          ],
+          "renewable_demands": [
+            2,
+            0
+          ]
+        }
+      ],
+      "predecessors": [
+        10,
+        19,
+        25
+      ],
+      "source_job_id": 27,
+      "successors": [
+        29
+      ]
+    },
+    {
+      "activity_id": 27,
+      "modes": [
+        {
+          "duration": 1,
+          "mode_id": 1,
+          "nonrenewable_demands": [
+            0,
+            4
+          ],
+          "renewable_demands": [
+            3,
+            0
+          ]
+        },
+        {
+          "duration": 6,
+          "mode_id": 2,
+          "nonrenewable_demands": [
+            8,
+            0
+          ],
+          "renewable_demands": [
+            3,
+            0
+          ]
+        },
+        {
+          "duration": 9,
+          "mode_id": 3,
+          "nonrenewable_demands": [
+            6,
+            0
+          ],
+          "renewable_demands": [
+            0,
+            4
+          ]
+        }
+      ],
+      "predecessors": [
+        8,
+        12,
+        21
+      ],
+      "source_job_id": 28,
+      "successors": [
+        28,
+        30
+      ]
+    },
+    {
+      "activity_id": 28,
+      "modes": [
+        {
+          "duration": 2,
+          "mode_id": 1,
+          "nonrenewable_demands": [
+            5,
+            0
+          ],
+          "renewable_demands": [
+            8,
+            0
+          ]
+        },
+        {
+          "duration": 3,
+          "mode_id": 2,
+          "nonrenewable_demands": [
+            4,
+            0
+          ],
+          "renewable_demands": [
+            8,
+            0
+          ]
+        },
+        {
+          "duration": 4,
+          "mode_id": 3,
+          "nonrenewable_demands": [
+            0,
+            5
+          ],
+          "renewable_demands": [
+            0,
+            9
+          ]
+        }
+      ],
+      "predecessors": [
+        14,
+        20,
+        27
+      ],
+      "source_job_id": 29,
+      "successors": [
+        31
+      ]
+    },
+    {
+      "activity_id": 29,
+      "modes": [
+        {
+          "duration": 4,
+          "mode_id": 1,
+          "nonrenewable_demands": [
+            9,
+            0
+          ],
+          "renewable_demands": [
+            5,
+            0
+          ]
+        },
+        {
+          "duration": 6,
+          "mode_id": 2,
+          "nonrenewable_demands": [
+            6,
+            0
+          ],
+          "renewable_demands": [
+            5,
+            0
+          ]
+        },
+        {
+          "duration": 8,
+          "mode_id": 3,
+          "nonrenewable_demands": [
+            1,
+            0
+          ],
+          "renewable_demands": [
+            4,
+            0
+          ]
+        }
+      ],
+      "predecessors": [
+        9,
+        18,
+        26
+      ],
+      "source_job_id": 30,
+      "successors": [
+        31
+      ]
+    },
+    {
+      "activity_id": 30,
+      "modes": [
+        {
+          "duration": 3,
+          "mode_id": 1,
+          "nonrenewable_demands": [
+            0,
+            10
+          ],
+          "renewable_demands": [
+            8,
+            0
+          ]
+        },
+        {
+          "duration": 6,
+          "mode_id": 2,
+          "nonrenewable_demands": [
+            5,
+            0
+          ],
+          "renewable_demands": [
+            2,
+            0
+          ]
+        },
+        {
+          "duration": 9,
+          "mode_id": 3,
+          "nonrenewable_demands": [
+            0,
+            3
+          ],
+          "renewable_demands": [
+            0,
+            6
+          ]
+        }
+      ],
+      "predecessors": [
+        23,
+        24,
+        27
+      ],
+      "source_job_id": 31,
+      "successors": [
+        31
+      ]
+    },
+    {
+      "activity_id": 31,
+      "modes": [
+        {
+          "duration": 0,
+          "mode_id": 1,
+          "nonrenewable_demands": [
+            0,
+            0
+          ],
+          "renewable_demands": [
+            0,
+            0
+          ]
+        }
+      ],
+      "predecessors": [
+        28,
+        29,
+        30
+      ],
+      "source_job_id": 32,
+      "successors": []
+    }
+  ],
+  "calibration_metadata": {
+    "cmax_max": 72,
+    "cmax_min": 29,
+    "decoder": "independent_serial_sgs_renewable_only",
+    "pool_actual_size": 96,
+    "pool_target_size": 96,
+    "random_origin_count": 64,
+    "rule_origin_count": 32,
+    "seed_sha256": "25ea3a7eb4183fb9aa97c572961484ce9784172ff7b3e937d0b0c9bba4b2c6cc"
+  },
+  "dataset": "J30",
+  "horizon": 243,
+  "instance_id": "j3025_3",
+  "jobs_including_dummy": 32,
+  "nonrenewable_active_in_core": false,
+  "nonrenewable_capacities": [
+    154,
+    139
+  ],
+  "precedence": {
+    "index_base": 0,
+    "predecessors": [
+      [],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        3
+      ],
+      [
+        2
+      ],
+      [
+        5
+      ],
+      [
+        2
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2
+      ],
+      [
+        7
+      ],
+      [
+        5
+      ],
+      [
+        1
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        7
+      ],
+      [
+        11
+      ],
+      [
+        3
+      ],
+      [
+        4,
+        9,
+        16
+      ],
+      [
+        6,
+        11
+      ],
+      [
+        8,
+        14
+      ],
+      [
+        10,
+        11,
+        16
+      ],
+      [
+        6,
+        15
+      ],
+      [
+        6,
+        13
+      ],
+      [
+        10,
+        17,
+        18
+      ],
+      [
+        5,
+        9
+      ],
+      [
+        14,
+        21,
+        22
+      ],
+      [
+        10,
+        19,
+        25
+      ],
+      [
+        8,
+        12,
+        21
+      ],
+      [
+        14,
+        20,
+        27
+      ],
+      [
+        9,
+        18,
+        26
+      ],
+      [
+        23,
+        24,
+        27
+      ],
+      [
+        28,
+        29,
+        30
+      ]
+    ],
+    "successors": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        8,
+        12,
+        13
+      ],
+      [
+        5,
+        7,
+        9
+      ],
+      [
+        4,
+        16
+      ],
+      [
+        13,
+        17
+      ],
+      [
+        6,
+        11,
+        24
+      ],
+      [
+        18,
+        21,
+        22
+      ],
+      [
+        8,
+        10,
+        14
+      ],
+      [
+        19,
+        27
+      ],
+      [
+        17,
+        24,
+        29
+      ],
+      [
+        20,
+        23,
+        26
+      ],
+      [
+        15,
+        18,
+        20
+      ],
+      [
+        27
+      ],
+      [
+        22
+      ],
+      [
+        19,
+        25,
+        28
+      ],
+      [
+        21
+      ],
+      [
+        17,
+        20
+      ],
+      [
+        23
+      ],
+      [
+        23,
+        29
+      ],
+      [
+        26
+      ],
+      [
+        28
+      ],
+      [
+        25,
+        27
+      ],
+      [
+        25
+      ],
+      [
+        30
+      ],
+      [
+        30
+      ],
+      [
+        26
+      ],
+      [
+        29
+      ],
+      [
+        28,
+        30
+      ],
+      [
+        31
+      ],
+      [
+        31
+      ],
+      [
+        31
+      ],
+      []
+    ]
+  },
+  "qualification_flags": {
+    "checks": {
+      "at_least_four_scenarios_valid": true,
+      "balanced_valid": true,
+      "source_structure_integrity": true,
+      "strict_or_heterogeneous_valid": true
+    },
+    "errors": [],
+    "qualified": true,
+    "valid_scenario_count": 6
+  },
+  "real_activity_count": 30,
+  "renewable_active_in_core": true,
+  "renewable_capacities": [
+    22,
+    15
+  ],
+  "scenarios": [
+    {
+      "B": [
+        51.999999999947995,
+        22.999999999977
+      ],
+      "S": [
+        17.0,
+        13.0
+      ],
+      "S_ratio": [
+        0.7727272727272727,
+        0.8666666666666667
+      ],
+      "active_exposure_resource_count": 2,
+      "approximate_pareto_count": 4,
+      "base_B": [
+        52.0,
+        23.0
+      ],
+      "bottleneck_resource_counts": [
+        70,
+        26
+      ],
+      "budget_method": "positive_exposure_quantile_with_shared_binary_search_multiplier",
+      "budget_quantiles": [
+        0.9,
+        0.9
+      ],
+      "calibration_adjustments": [
+        {
+          "final_ratio": 0.7727272727272727,
+          "initial_ratio": 0.7727272727272727,
+          "resource": 0,
+          "steps": 0
+        },
+        {
+          "final_ratio": 0.8666666666666667,
+          "initial_ratio": 0.8666666666666667,
+          "resource": 1,
+          "steps": 0
+        }
+      ],
+      "calibration_feasible_fraction": 0.8541666666666666,
+      "conflict_flags": {
+        "cmax_rho_tradeoff_pair_exists": true
+      },
+      "exposure_inactive_for_resource": [
+        false,
+        false
+      ],
+      "invalid_reasons": [],
+      "lambda": 0.9999999999989999,
+      "positive_exposure_fractions": [
+        0.9479166666666666,
+        0.6666666666666666
+      ],
+      "rho_max": 1.7826086956539566,
+      "rho_min": 0.08695652173921739,
+      "scenario_name": "lenient",
+      "target_feasible_fraction": 0.85,
+      "threshold_method": "positive_utilization_quantile_with_clip_and_exposure_floor",
+      "threshold_quantiles": [
+        0.8,
+        0.8
+      ],
+      "valid": true,
+      "warnings": []
+    },
+    {
+      "B": [
+        74.99999999992502,
+        54.044117647004775
+      ],
+      "S": [
+        14.999999999999998,
+        10.0
+      ],
+      "S_ratio": [
+        0.6818181818181818,
+        0.6666666666666666
+      ],
+      "active_exposure_resource_count": 2,
+      "approximate_pareto_count": 3,
+      "base_B": [
+        68.00000000000003,
+        49.0
+      ],
+      "bottleneck_resource_counts": [
+        56,
+        40
+      ],
+      "budget_method": "positive_exposure_quantile_with_shared_binary_search_multiplier",
+      "budget_quantiles": [
+        0.65,
+        0.65
+      ],
+      "calibration_adjustments": [
+        {
+          "final_ratio": 0.6818181818181818,
+          "initial_ratio": 0.6818181818181818,
+          "resource": 0,
+          "steps": 0
+        },
+        {
+          "final_ratio": 0.6666666666666666,
+          "initial_ratio": 0.6666666666666666,
+          "resource": 1,
+          "steps": 0
+        }
+      ],
+      "calibration_feasible_fraction": 0.5520833333333334,
+      "conflict_flags": {
+        "cmax_rho_tradeoff_pair_exists": true
+      },
+      "exposure_inactive_for_resource": [
+        false,
+        false
+      ],
+      "invalid_reasons": [],
+      "lambda": 1.1029411764694852,
+      "positive_exposure_fractions": [
+        0.9895833333333334,
+        0.90625
+      ],
+      "rho_max": 3.0345578231322867,
+      "rho_min": 0.2800000000002802,
+      "scenario_name": "balanced",
+      "target_feasible_fraction": 0.55,
+      "threshold_method": "positive_utilization_quantile_with_clip_and_exposure_floor",
+      "threshold_quantiles": [
+        0.65,
+        0.65
+      ],
+      "valid": true,
+      "warnings": []
+    },
+    {
+      "B": [
+        157.99999999984198,
+        44.23999999995575
+      ],
+      "S": [
+        11.0,
+        9.0
+      ],
+      "S_ratio": [
+        0.5,
+        0.6
+      ],
+      "active_exposure_resource_count": 2,
+      "approximate_pareto_count": 4,
+      "base_B": [
+        125.0,
+        35.0
+      ],
+      "bottleneck_resource_counts": [
+        45,
+        51
+      ],
+      "budget_method": "positive_exposure_quantile_with_shared_binary_search_multiplier",
+      "budget_quantiles": [
+        0.4,
+        0.4
+      ],
+      "calibration_adjustments": [
+        {
+          "final_ratio": 0.5,
+          "initial_ratio": 0.5,
+          "resource": 0,
+          "steps": 0
+        },
+        {
+          "final_ratio": 0.6,
+          "initial_ratio": 0.6,
+          "resource": 1,
+          "steps": 0
+        }
+      ],
+      "calibration_feasible_fraction": 0.25,
+      "conflict_flags": {
+        "cmax_rho_tradeoff_pair_exists": true
+      },
+      "exposure_inactive_for_resource": [
+        false,
+        false
+      ],
+      "invalid_reasons": [],
+      "lambda": 1.2639999999987357,
+      "positive_exposure_fractions": [
+        1.0,
+        0.9895833333333334
+      ],
+      "rho_max": 4.837251356243536,
+      "rho_min": 0.5443037974688988,
+      "scenario_name": "strict",
+      "target_feasible_fraction": 0.25,
+      "threshold_method": "positive_utilization_quantile_with_clip_and_exposure_floor",
+      "threshold_quantiles": [
+        0.5,
+        0.5
+      ],
+      "valid": true,
+      "warnings": []
+    },
+    {
+      "B": [
+        203.3003300328,
+        87.99999999991199
+      ],
+      "S": [
+        10.0,
+        9.0
+      ],
+      "S_ratio": [
+        0.45454545454545453,
+        0.6
+      ],
+      "active_exposure_resource_count": 2,
+      "approximate_pareto_count": 4,
+      "base_B": [
+        210.0,
+        90.89999999999999
+      ],
+      "bottleneck_resource_counts": [
+        66,
+        30
+      ],
+      "budget_method": "positive_exposure_quantile_with_shared_binary_search_multiplier",
+      "budget_quantiles": [
+        0.85,
+        0.85
+      ],
+      "calibration_adjustments": [
+        {
+          "final_ratio": 0.45454545454545453,
+          "initial_ratio": 0.45454545454545453,
+          "resource": 0,
+          "steps": 0
+        },
+        {
+          "final_ratio": 0.6,
+          "initial_ratio": 0.6,
+          "resource": 1,
+          "steps": 0
+        }
+      ],
+      "calibration_feasible_fraction": 0.6041666666666666,
+      "conflict_flags": {
+        "cmax_rho_tradeoff_pair_exists": true
+      },
+      "exposure_inactive_for_resource": [
+        false,
+        false
+      ],
+      "invalid_reasons": [],
+      "lambda": 0.96809680968,
+      "positive_exposure_fractions": [
+        1.0,
+        0.9895833333333334
+      ],
+      "rho_max": 2.431818181820614,
+      "rho_min": 0.5164772727277892,
+      "scenario_name": "threshold_sensitive",
+      "target_feasible_fraction": 0.6,
+      "threshold_method": "positive_utilization_quantile_with_clip_and_exposure_floor",
+      "threshold_quantiles": [
+        0.45,
+        0.45
+      ],
+      "valid": true,
+      "warnings": []
+    },
+    {
+      "B": [
+        37.99999999996199,
+        8.925581395339906
+      ],
+      "S": [
+        17.0,
+        13.0
+      ],
+      "S_ratio": [
+        0.7727272727272727,
+        0.8666666666666667
+      ],
+      "active_exposure_resource_count": 2,
+      "approximate_pareto_count": 3,
+      "base_B": [
+        21.499999999999996,
+        5.049999999999997
+      ],
+      "bottleneck_resource_counts": [
+        56,
+        40
+      ],
+      "budget_method": "positive_exposure_quantile_with_shared_binary_search_multiplier",
+      "budget_quantiles": [
+        0.35,
+        0.35
+      ],
+      "calibration_adjustments": [
+        {
+          "final_ratio": 0.7727272727272727,
+          "initial_ratio": 0.7727272727272727,
+          "resource": 0,
+          "steps": 0
+        },
+        {
+          "final_ratio": 0.8666666666666667,
+          "initial_ratio": 0.8666666666666667,
+          "resource": 1,
+          "steps": 0
+        }
+      ],
+      "calibration_feasible_fraction": 0.5,
+      "conflict_flags": {
+        "cmax_rho_tradeoff_pair_exists": true
+      },
+      "exposure_inactive_for_resource": [
+        false,
+        false
+      ],
+      "invalid_reasons": [],
+      "lambda": 1.7674418604633488,
+      "positive_exposure_fractions": [
+        0.9479166666666666,
+        0.6666666666666666
+      ],
+      "rho_max": 4.593538301203138,
+      "rho_min": 0.15789473684226318,
+      "scenario_name": "budget_sensitive",
+      "target_feasible_fraction": 0.5,
+      "threshold_method": "positive_utilization_quantile_with_clip_and_exposure_floor",
+      "threshold_quantiles": [
+        0.8,
+        0.8
+      ],
+      "valid": true,
+      "warnings": []
+    },
+    {
+      "B": [
+        124.99999999987499,
+        11.84210526314605
+      ],
+      "S": [
+        14.0,
+        12.0
+      ],
+      "S_ratio": [
+        0.6363636363636364,
+        0.8
+      ],
+      "active_exposure_resource_count": 2,
+      "approximate_pareto_count": 3,
+      "base_B": [
+        95.0,
+        9.0
+      ],
+      "bottleneck_resource_counts": [
+        42,
+        54
+      ],
+      "budget_method": "positive_exposure_quantile_with_shared_binary_search_multiplier",
+      "budget_quantiles": [
+        0.8,
+        0.4
+      ],
+      "calibration_adjustments": [
+        {
+          "final_ratio": 0.6363636363636364,
+          "initial_ratio": 0.6363636363636364,
+          "resource": 0,
+          "steps": 0
+        },
+        {
+          "final_ratio": 0.8,
+          "initial_ratio": 0.8,
+          "resource": 1,
+          "steps": 0
+        }
+      ],
+      "calibration_feasible_fraction": 0.5,
+      "conflict_flags": {
+        "cmax_rho_tradeoff_pair_exists": true
+      },
+      "exposure_inactive_for_resource": [
+        false,
+        false
+      ],
+      "invalid_reasons": [],
+      "lambda": 1.3157894736828946,
+      "positive_exposure_fractions": [
+        1.0,
+        0.875
+      ],
+      "rho_max": 6.0800000000060805,
+      "rho_min": 0.272000000000272,
+      "scenario_name": "heterogeneous",
+      "target_feasible_fraction": 0.5,
+      "threshold_method": "positive_utilization_quantile_with_clip_and_exposure_floor",
+      "threshold_quantiles": [
+        0.6,
+        0.75
+      ],
+      "valid": true,
+      "warnings": []
+    }
+  ],
+  "schema_version": "set-b-v1",
+  "source_relative_path": "j30/j3025_3.mm",
+  "source_sha256": "d62b6a5b90c491c4a28ce7aab50cb329a7188a48357a6187d2022500e5298d90"
+}
