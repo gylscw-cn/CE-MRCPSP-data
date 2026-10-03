@@ -1,0 +1,67 @@
+{
+  "calibration_pool_target_size": 96,
+  "datasets": [
+    "J10",
+    "J20",
+    "J30"
+  ],
+  "json_float_policy": "Python double precision; no decimal truncation",
+  "random_encodings": 64,
+  "random_seed_method": "SHA-256(source_relative_path)",
+  "rule_encodings": 32,
+  "scenario_specs": {
+    "balanced": {
+      "budget_q": 0.65,
+      "clip": [
+        0.6,
+        0.85
+      ],
+      "target": 0.55,
+      "threshold_q": 0.65
+    },
+    "budget_sensitive": {
+      "budget_q": 0.35,
+      "clip": [
+        0.7,
+        0.92
+      ],
+      "target": 0.5,
+      "threshold_q": 0.8
+    },
+    "heterogeneous": {
+      "clip": [
+        0.48,
+        0.88
+      ],
+      "target": 0.5
+    },
+    "lenient": {
+      "budget_q": 0.9,
+      "clip": [
+        0.7,
+        0.92
+      ],
+      "target": 0.85,
+      "threshold_q": 0.8
+    },
+    "strict": {
+      "budget_q": 0.4,
+      "clip": [
+        0.5,
+        0.75
+      ],
+      "target": 0.25,
+      "threshold_q": 0.5
+    },
+    "threshold_sensitive": {
+      "budget_q": 0.85,
+      "clip": [
+        0.45,
+        0.7
+      ],
+      "target": 0.6,
+      "threshold_q": 0.45
+    }
+  },
+  "schema_version": "set-b-v1"
+}

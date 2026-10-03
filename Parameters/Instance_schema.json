@@ -1,0 +1,42 @@
+{
+  "$id": "set-b-v1",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "nonrenewable_active_in_core": {
+      "const": false,
+      "description": "Nonrenewable data are preserved verbatim but inactive in Set B-Core."
+    },
+    "renewable_active_in_core": {
+      "const": true,
+      "description": "Renewable resources are active constraints and exposure sources."
+    },
+    "scenarios": {
+      "maxItems": 6,
+      "minItems": 6,
+      "type": "array"
+    },
+    "schema_version": {
+      "const": "set-b-v1"
+    },
+    "source_sha256": {
+      "pattern": "^[0-9a-f]{64}$",
+      "type": "string"
+    }
+  },
+  "required": [
+    "schema_version",
+    "dataset",
+    "instance_id",
+    "source_relative_path",
+    "source_sha256",
+    "activities",
+    "renewable_capacities",
+    "nonrenewable_capacities",
+    "scenarios",
+    "renewable_active_in_core",
+    "nonrenewable_active_in_core"
+  ],
+  "title": "PSPLIB Set B instance",
+  "type": "object"
+}
