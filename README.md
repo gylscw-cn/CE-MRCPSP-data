@@ -21,7 +21,7 @@ Actual per-instance thresholds and budgets are stored in the instance's `scenari
 
 ## Scope
 
-This is an instance-and-parameter dataset. Algorithm source code, raw experimental results, ablation outputs, statistical analyses, and road-restoration case data are not included. These files alone are not a complete reproduction package for all experiments reported in the manuscript.
+The repository file tree contains benchmark instances and parameter settings. The complete reproducibility package, including source code, experiment and analysis scripts, additional inputs, and archived numerical results, is available in release v1.0. Download the attached Supplementary.Material.zip and follow the README inside the archive. GitHub’s automatically generated “Source code” archives do not contain this complete package.
 
 ## Provenance and third-party rights
 
